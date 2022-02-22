@@ -59,7 +59,7 @@ jtd.getTheme = function() {
 
 jtd.setTheme = function(theme) {
   var cssFile = document.querySelector('[rel="stylesheet"]');
-  cssFile.setAttribute('href', 'https://iitis.github.io/numericalshadow.org/assets/css/just-the-docs-' + theme + '.css');
+  cssFile.setAttribute('href', 'https://numericalshadow.org/pages/numericalshadow/numericalshadow.org/assets/css/just-the-docs-' + theme + '.css');
 }
 
 // Document ready
